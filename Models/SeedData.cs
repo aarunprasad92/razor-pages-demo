@@ -51,6 +51,14 @@ namespace RazorPagesMovie.Models
                         ReleaseDate = DateTime.Parse("1959-4-15"),
                         Genre = "Western",
                         Price = 3.99M
+                    },
+
+                    new Movie
+                    {
+                        Title = "Sarpatta",
+                        ReleaseDate = DateTime.Parse("1959-4-15"),
+                        Genre = "Indian",
+                        Price = 4.99M
                     }
                 );
                 context.SaveChanges();
